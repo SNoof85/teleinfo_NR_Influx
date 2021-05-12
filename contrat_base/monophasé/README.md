@@ -1,7 +1,7 @@
 # Contrat BASE Monophasé
 # Flow 1
 Code dans [flow1.json](./flow1.json)
-## Flow 2
+## Flow 2 (commun avec le triphasé)
 Divisé en 4 parties.
 * [flow2_part1.json](./flow2_part1.json)
 * [flow2_part2.json](./flow2_part2.json)
