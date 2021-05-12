@@ -1,0 +1,84 @@
+[
+   {
+      "id":"996f1375.2bd1a",
+      "type":"group",
+      "z":"659b0a60.7f2d34",
+      "name":"Reçoit index et stocke dans flow.index_wh",
+      "style":{
+         "label":true
+      },
+      "nodes":[
+         "eeedfbd8.5cdbc8",
+         "81c566a2.4f9818",
+         "75f79cb3.868664"
+      ],
+      "x":34,
+      "y":299,
+      "w":332,
+      "h":122
+   },
+   {
+      "id":"eeedfbd8.5cdbc8",
+      "type":"link in",
+      "z":"659b0a60.7f2d34",
+      "g":"996f1375.2bd1a",
+      "name":"index Wh in",
+      "links":[
+         "b8657ce5.66446"
+      ],
+      "x":75,
+      "y":380,
+      "wires":[
+         [
+            "81c566a2.4f9818",
+            "75f79cb3.868664"
+         ]
+      ]
+   },
+   {
+      "id":"81c566a2.4f9818",
+      "type":"debug",
+      "z":"659b0a60.7f2d34",
+      "g":"996f1375.2bd1a",
+      "name":"",
+      "active":false,
+      "tosidebar":true,
+      "console":false,
+      "tostatus":false,
+      "complete":"true",
+      "targetType":"full",
+      "x":210,
+      "y":340,
+      "wires":[
+         
+      ]
+   },
+   {
+      "id":"75f79cb3.868664",
+      "type":"change",
+      "z":"659b0a60.7f2d34",
+      "g":"996f1375.2bd1a",
+      "name":"",
+      "rules":[
+         {
+            "t":"set",
+            "p":"index_wh",
+            "pt":"flow",
+            "to":"payload",
+            "tot":"msg"
+         }
+      ],
+      "action":"",
+      "property":"",
+      "from":"",
+      "to":"",
+      "reg":false,
+      "x":250,
+      "y":380,
+      "wires":[
+         [
+            
+         ]
+      ]
+   }
+]
