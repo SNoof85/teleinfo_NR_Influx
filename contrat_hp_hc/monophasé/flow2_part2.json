@@ -226,7 +226,7 @@
       "rules":[
          {
             "t":"set",
-            "p":"index_hp_wh",
+            "p":"index_hc_wh",
             "pt":"flow",
             "to":"payload",
             "tot":"msg"
