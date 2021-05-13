@@ -295,7 +295,7 @@
             "t":"set",
             "p":"index_hp_wh_start_month",
             "pt":"flow",
-            "to":"index_wh",
+            "to":"index_hp_wh",
             "tot":"flow"
          }
       ],
@@ -323,7 +323,7 @@
             "t":"set",
             "p":"index_hp_wh_start_year",
             "pt":"flow",
-            "to":"index_wh",
+            "to":"index_hp_wh",
             "tot":"flow"
          }
       ],
