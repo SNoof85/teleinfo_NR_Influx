@@ -1,6 +1,7 @@
 name: JSON check
 on:
   push:
+    branches: [ main ]
     paths:
       - '**.json'
   pull_request:
